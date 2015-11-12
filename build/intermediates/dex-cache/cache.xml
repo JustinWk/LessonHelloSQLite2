@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\classes-c0f488d86c0d5dbfcffcbce1a199f83f9f58d163.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0-f55370315daae1886615e516bd7877a9759213e6.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidSet\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-d13efed891807b094392dadb7e9b54de685e6b77.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\classes-225c0db83b97aa2e7a73dbbdd105c01008179d49.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.3\36366e460af2c0f224bb8f70b64e3302f638b138\parse-android-1.10.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="36366e460af2c0f224bb8f70b64e3302f638b138">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\parse-android-1.10.3-ca193392f2b16bbcfad0027ef41a1ae1a27b2841.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0-9eb98338879b8c36081ade8afda3aa1a96830ae9.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-b7734273064995732f92383592ee1eb24ff4a798.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\haslina\Desktop\al-muazzin-master\MyBookStore\app\build\intermediates\pre-dexed\debug\classes-6d3892b32e122955c5433edca7e308249acbaf97.jar" />
+    </item>
+
+</items>

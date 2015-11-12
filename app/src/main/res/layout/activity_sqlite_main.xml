@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SQLiteMainActivity"
+    tools:ignore="NewApi">
+
+    <TextView
+        android:id="@+id/textViewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Books Database"
+        android:textSize="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextBName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:hint="Book Name" />
+
+        <EditText
+            android:id="@+id/editTextBAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:hint="Author Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonADD"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/add"
+            android:onClick="addBook" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/delete"
+            android:layout_margin="10dp"
+            android:onClick="deleteBook" />
+
+        <Button
+            android:id="@+id/buttonFind"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/search"
+            android:onClick="findBook" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvShowRecords"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDelete"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="No Records Yet" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lvShowRecords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:background="@android:color/holo_orange_dark">
+
+            </ListView>
+
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_add"
+            app:fabSize="mini"
+            app:layout_anchor="@id/coordinatorLayout"
+            app:layout_anchorGravity="bottom|right|end"
+            app:rippleColor="#bf4e74"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>
